@@ -20,3 +20,4 @@ O objetivo desta atividade é criar um mapa com os pins das paradas de ônibus e
 - [ ] O mapa deverá ser adicionado no repositório
 - [ ] Os pins das paradas deverão ser de cor diferente dos pins de posição em tempo real
 - [ ] O ônibus selecionado deverá ser diferente do que foi utilizado nos slides
+
