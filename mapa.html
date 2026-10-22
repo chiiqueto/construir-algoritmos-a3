@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ed96aa0dc9193a4ba069e178daa01c5c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ed96aa0dc9193a4ba069e178daa01c5c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ed96aa0dc9193a4ba069e178daa01c5c = L.map(
+                "map_ed96aa0dc9193a4ba069e178daa01c5c",
+                {
+                    center: [-23.55, -46.63],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d2197fb499a55b14b38ebfece262cfef = L.tileLayer(
+                "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Tiles \u0026copy; Esri",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d2197fb499a55b14b38ebfece262cfef.addTo(map_ed96aa0dc9193a4ba069e178daa01c5c);
+        
+    
+            var marker_687fd9ebbb0878742539ebeee25918b7 = L.marker(
+                [-23.511052, -46.705493],
+                {
+}
+            ).addTo(map_ed96aa0dc9193a4ba069e178daa01c5c);
+        
+    
+            var icon_840134d2b34ee38ab2797ad21cb11906 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_edd27785863c0dbaada96fc51248cd96 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_470da55e19b279b64bd06676586887c2 = $(`<div id="html_470da55e19b279b64bd06676586887c2" style="width: 100.0%; height: 100.0%;">MARGINAL B/C<br>AC PONTE DO PIQUERI AV EMB MACEDO SOARES/ R PROFESSORA SURAIA AIDAR MENON</div>`)[0];
+                popup_edd27785863c0dbaada96fc51248cd96.setContent(html_470da55e19b279b64bd06676586887c2);
+            
+        
+
+        marker_687fd9ebbb0878742539ebeee25918b7.bindPopup(popup_edd27785863c0dbaada96fc51248cd96)
+        ;
+
+        
+    
+    
+                marker_687fd9ebbb0878742539ebeee25918b7.setIcon(icon_840134d2b34ee38ab2797ad21cb11906);
+            
+    
+            var marker_0f4f40413bc75cb4ddadbb31ea1f2b1b = L.marker(
+                [-23.50616, -46.706061],
+                {
+}
+            ).addTo(map_ed96aa0dc9193a4ba069e178daa01c5c);
+        
+    
+            var icon_11cf26a38f8b6ce8c9ad748fd7b5e2dd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "map-pin",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd3447fc8d00bb9deb9cb94e2a51c5a9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b54f6e8bdce863fd2b00daab975daae1 = $(`<div id="html_b54f6e8bdce863fd2b00daab975daae1" style="width: 100.0%; height: 100.0%;">PIQUERI B/C<br>AC A AV OTAVIANO ALVES DE LIMA/ R BENEDITO MONTEIRO</div>`)[0];
+                popup_dd3447fc8d00bb9deb9cb94e2a51c5a9.setContent(html_b54f6e8bdce863fd2b00daab975daae1);
+            
+        
+
+        marker_0f4f40413bc75cb4ddadbb31ea1f2b1b.bindPopup(popup_dd3447fc8d00bb9deb9cb94e2a51c5a9)
+        ;
+
+        
+    
+    
+                marker_0f4f40413bc75cb4ddadbb31ea1f2b1b.setIcon(icon_11cf26a38f8b6ce8c9ad748fd7b5e2dd);
+            
+    
+            var marker_e2e2fe8c19bae1325ef42711e6d06ef7 = L.marker(
+                [-23.5022055, -46.703604],
+                {
+}
+            ).addTo(map_ed96aa0dc9193a4ba069e178daa01c5c);
+        
+    
+            var icon_1b8ba71e9e49396756b45de7f5baad02 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "bus",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3b45a5b9d1312b545fc0a6136614b3ee = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1eac0167c83d859a46a5b3d2dc7de33c = $(`<div id="html_1eac0167c83d859a46a5b3d2dc7de33c" style="width: 100.0%; height: 100.0%;">Ônibus 16352<br>Atualizado: 2026-10-22T22:36:53Z</div>`)[0];
+                popup_3b45a5b9d1312b545fc0a6136614b3ee.setContent(html_1eac0167c83d859a46a5b3d2dc7de33c);
+            
+        
+
+        marker_e2e2fe8c19bae1325ef42711e6d06ef7.bindPopup(popup_3b45a5b9d1312b545fc0a6136614b3ee)
+        ;
+
+        
+    
+    
+                marker_e2e2fe8c19bae1325ef42711e6d06ef7.setIcon(icon_1b8ba71e9e49396756b45de7f5baad02);
+            
+</script>
+</html>
